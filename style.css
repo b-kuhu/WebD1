@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Courgette&family=Dancing+Script&family=Reggae+One&family=Satisfy&family=Shadows+Into+Light&family=Spartan:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    
+    background-color: #2874f0;
+    font-family: 'Architects Daughter', cursive;
+   
+}
+nav{
+  
+    display: flex;
+    z-index: 2;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80.4px;
+    padding: 0 12px;
+    
+}
+.slider{
+   
+    width: 60vw;
+    margin: 12px auto;
+}
+.card{
+  
+    padding: 0 12px;
+    margin: auto;
+}
+
+.card h3,.lines{
+    font-family: 'Architects Daughter', cursive;
+}
+.card-item{
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+}
+nav ul{
+    height: 58px;
+    
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+    /* color: white;
+     */
+}
+.search{
+     align-items: center;
+     display: flex;
+}
+.search input{
+    width: 433px;
+    height: 30px;
+    border-radius: 3px;
+    margin: 0 10px 0 56px;
+    padding: 0 13px;
+}
+.search button{
+    color: white;
+    background-color: #2874f0;
+    border-radius: 7px;
+    cursor: pointer;
+    font-family: 'Architects Daughter', cursive;
+    padding: 3px;
+    font-weight: 600;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    background-color: #2874f0;
+    color: white ;
+    font-family: 'Architects Daughter', cursive;
+}
